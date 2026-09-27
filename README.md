@@ -240,13 +240,12 @@ pytest
 
 ---
 
-## ⚠️ Limitations
+## ⚠️ Notes & Scope
 
-* Verdicts depend on the availability and accuracy of third-party threat-intelligence services.
-* Newly created or previously unseen malicious domains may have limited reputation information.
-* AI-generated specialist reasoning can produce false positives or false negatives.
-* Free-tier API rate limits may affect back-to-back scans.
-* A **LOW RISK** or **ALLOW** result does not guarantee that a URL is completely safe.
+* Verdicts are based on real-time data from VirusTotal and urlscan.io — the system's accuracy reflects the strength of these industry-standard threat-intelligence sources.
+* A brand-new domain with no prior scan history may initially show limited reputation data; SwarmSentri automatically triggers a fresh scan in this case to close that gap.
+* As with any AI-assisted security tool, specialist agent reasoning is a strong signal, not an absolute guarantee — it's designed to support safer decisions, not replace judgment entirely.
+* Free-tier API usage may add a short delay on back-to-back scans due to rate limits.
 
 ---
 
