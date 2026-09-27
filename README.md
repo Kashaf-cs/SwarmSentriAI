@@ -227,16 +227,13 @@ pytest
 
 ---
 
-## 📊 Example Result
+## 🚀 Live Demo
 
-| Metric         | Value                                                        |
-| -------------- | ------------------------------------------------------------ |
-| **Verdict**    | 🟢 LOW RISK                                                  |
-| **Risk Score** | 2 / 100                                                      |
-| **VirusTotal** | Malicious: 0 · Suspicious: 0 · Harmless: 63 · Undetected: 29 |
-| **urlscan.io** | HTTP 200 · Not Flagged                                       |
+SwarmSentri is live and deployed on Vercel:
 
-> Example results depend on the URL submitted and the current threat-intelligence data returned by external services.
+[![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://swarm-sentri-ai.vercel.app)
+
+🔗 **Live Link:** [https://swarm-sentri-ai.vercel.app](https://swarm-sentri-ai.vercel.app)
 
 ---
 
